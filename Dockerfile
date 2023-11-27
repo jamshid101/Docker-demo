@@ -12,5 +12,5 @@ FROM openjdk:17-oracle
 
 WORKDIR /app
 
-COPY --from=MAVEN_BUILD /build/target/Docker_Demo*.jar /app/
-CMD ["java", "-jar", "Docker_Demo*.jar"]
+COPY --from=MAVEN_BUILD /build/target/Docker_Demo.jar /app/
+CMD ["java", "-jar", "Docker_Demo.jar"]

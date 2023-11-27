@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Docker_Demo</finalName>
 	</build>
 
 </project>
