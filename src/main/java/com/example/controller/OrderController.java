@@ -21,6 +21,6 @@ public class OrderController {
     public String orderController(@RequestBody Order order){
 
         orderProducerService.sendMessage(order);
-        return "Successfully";
+        return "Successfully...";
     }
 }
